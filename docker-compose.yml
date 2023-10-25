@@ -8,4 +8,4 @@ services:
     volumes:
       - ../robot-framework/scripts:/opt/robotframework/tests
       - ../robot-framework/results:/opt/robotframework/reports
-#    command: /home/robot/acetoys.robot
+#    command: /opt/robotframework/tests/api.robot
