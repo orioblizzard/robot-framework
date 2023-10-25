@@ -1,4 +1,5 @@
 # robot-framework
-robot framework with selenium for demo
+robot framework with selenium for demo and run on Docker-compose
 
-demo
+# How to run
+docker-compose up --build

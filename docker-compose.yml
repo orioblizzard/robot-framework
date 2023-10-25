@@ -1,0 +1,11 @@
+version: '3'
+services:
+  robot-framework:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    platform: linux/amd64
+    volumes:
+      - ../robot-framework/scripts:/opt/robotframework/tests
+      - ../robot-framework/results:/opt/robotframework/reports
+#    command: /home/robot/acetoys.robot
